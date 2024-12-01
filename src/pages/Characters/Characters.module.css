@@ -1,0 +1,155 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+.Logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.LogoTit{
+   padding-top: 80px;
+}
+.Filters{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+.FiltersIn img{
+    margin: 0 10px 0 10px;
+}
+.FiltersIn{
+    width: 240px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #00000080;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    overflow: none;
+    outline: none;
+    
+}
+.FiltersIn hover{
+    border: 1px solid blue;
+}
+.FiltersIn input{
+    outline: none;
+    overflow: none;
+    border: none;
+    
+}
+
+.Selects{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Selects select{
+    width: 240px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #00000080;
+    margin-right: 20px;
+    overflow: none;
+    outline: none;
+}
+.Selects :hover{
+    border: 1px solid blue;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 25px;
+    margin-bottom: 80px;
+    margin-right: 10px;
+}
+.container__item{
+    text-decoration: none;
+    color: black;
+}
+.Charac__img{
+    width: 240px;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 3px 5px -1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 3px 5px -1px rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 3px 5px -1px rgba(34, 60, 80, 0.2);
+}
+
+.block__name{
+    -webkit-box-shadow: 1px 3px 5px -1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 3px 5px -1px rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 3px 5px -1px rgba(34, 60, 80, 0.2);
+    width: 240px;
+    height: 76px;
+    border-radius: 4px;
+}
+.title{
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.subtitle{
+    font-size: 14px;
+    color: #00000099;
+    margin: 0 0 0 10px;
+}
+.more__button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.more__button button{
+ width: 154px;
+height: 36px;
+box-shadow: 0px 6px 10px 0px #00000024;
+box-shadow: 0px 1px 18px 0px #0000001F;
+box-shadow: 0px 3px 5px 0px #00000033;
+font-size: 14px;
+align-items: center;
+color: #2196F3;
+border: none;
+}
+.more__button :hover{
+    border: 1px solid #2196F3;
+}
+
+@media screen and (max-width: 840px) {
+    .LogoTit img{
+        width: 80%; 
+        height: 80%;
+    }
+    .Filters{
+        margin: 0 50px 0 50px;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .Filters{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        
+    }
+    .Selects{
+        flex-wrap: wrap;
+    }
+    select{
+        margin-bottom: 20px;
+    }
+    .FiltersIn{
+        width: 260px;
+        margin-right: 100px;
+        margin-bottom: 20px;
+
+    }
+}

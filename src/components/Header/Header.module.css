@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{  
+    width: 100%;
+    z-index: 1000;
+    height: 70px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: fixed; 
+    background-color: transparent; 
+    backdrop-filter: blur(10px);
+    box-shadow: -2px 0px 8px 2px rgba(0, 0, 0, 0.10);
+}  
+.burger__menu{ 
+    display: none;
+}
+.header__container{ 
+    width: 65%;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+} 
+.nav__list{  
+    display: flex; 
+    justify-content: space-between; 
+    list-style: none;
+} 
+.nav__item:not(:last-child){ 
+    margin-right: 8%;
+} 
+.nav__item a{ 
+    text-decoration: none; 
+    color: black;
+    font-family: 'Karla',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} 
+.burger{   
+    left: 0;
+    width: 100%; 
+    top:60px;
+    position: absolute;
+    z-index: 999; 
+    display: flex; 
+    height: 100vh; 
+    background-color: white;  
+    align-items: flex-start;
+} 
+.burger_menu{
+  display: none;
+}
+.burger__item a {
+  color: #000;
+  text-decoration: none; 
+  
+  text-align: center;
+  font-family: "Karla",sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+} 
+.burger__list{  
+  width: 100%;
+  height: 40%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around;
+    list-style: none;  
+    align-items: center;
+    margin: 0;
+}
+@media screen and (max-width:1440px) {
+    .header__container{ 
+      width: 75%;
+    }
+  } 
+@media screen and (max-width:1024px) {
+    .header__container{ 
+      width: 90%;
+    }
+    .nav__list{  
+        width: 43%;
+    } 
+  } 
+  @media screen and (max-width:824px) {
+    .header__container{ 
+      width: 95%;
+    }
+    .nav__list{  
+        width: 53%;
+    } 
+  }
+  @media screen and (max-width:660px) {
+    .header__container{ 
+      width: 90%;
+    } 
+    .header{
+        height: 60px;
+    }
+    .nav__list{  
+        display: none;
+    }  
+    .burger_menu{ 
+        display: block;
+        position: relative;
+        z-index: 50;
+    }
+  }

@@ -1,0 +1,60 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+.back__button{
+    padding-top: 80px;
+    margin-left: 110px;
+    
+}
+.title{
+    font-weight: 200;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.subtitles{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    column-gap: 400px;
+}
+.subtitles p{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.subres{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    column-gap: 360px;
+    margin-bottom: 50px;
+
+}
+.subres p{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #6E798C;
+    font-size: 14px;
+}
+.subtitle{
+    font-size: 20px;
+    color: #8E8E93;
+    font-weight: 200;
+    margin-left: 87px;
+    margin-bottom: 30px;
+}
+.error__picle{
+    display: flex;
+    justify-content: center;
+    box-shadow: none;
+    flex-direction: column;
+    
+}
+
+.error__picle img{
+    width: 35%;
+}

@@ -1,0 +1,120 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.Logo img {
+    height: 30%;
+    width: 30%;
+}
+
+.Input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.filter__inp {
+    width: 500px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #00000080;
+    display: flex;
+    align-items: center;
+}
+
+.Input :hover {
+    border: 1px solid blue;
+}
+
+.filter__inp input {
+    border: none;
+    overflow: none;
+    outline: none;
+}
+
+.filter__inp input:hover {
+    border: none;
+    overflow: none;
+    outline: none;
+}
+
+.filter__inp img {
+    margin: 0 10px 0 10px;
+}
+
+.filter__inp img:hover {
+    border: none;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 25px;
+    margin-bottom: 80px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+}
+
+.container__item {
+    text-align: center;
+    width: 240px;
+    height: 128px;
+    background-color: #FAFAFA;
+    box-shadow: 0px 2px 4px 0px #00000024;
+    box-shadow: 0px 3px 4px 0px #0000001F;
+    box-shadow: 0px 1px 5px 0px #00000033;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+.container__item h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.container__item p {
+    font-size: 14px;
+    color: #00000099;
+}
+
+.container__item h3 {
+    font-size: 14px;
+    color: #00000099;
+}
+
+.more__button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.more__button button {
+    width: 154px;
+    height: 36px;
+    box-shadow: 0px 6px 10px 0px #00000024;
+    box-shadow: 0px 1px 18px 0px #0000001F;
+    box-shadow: 0px 3px 5px 0px #00000033;
+    font-size: 14px;
+    align-items: center;
+    color: #2196F3;
+    border: none;
+}
+
+.more__button :hover {
+    border: 1px solid #2196F3;
+}
